@@ -121,6 +121,20 @@ button{
     border: none;
 }
 
+@media screen and (max-width: 1024px) {
+    html{
+        font-size: 80%;
+      }
+    .main-div{
+        width: 95%;
+    }
+    .main-sec{
+        max-width: 1024px;
+    }
+    .form{
+        width: 100%;
+    }
+}
 @media screen and (max-width: 640px) {
     /* .title{
         font-size: 2rem;
